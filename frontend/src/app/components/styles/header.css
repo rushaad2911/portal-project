@@ -1,0 +1,15 @@
+.main-header{
+    background-color: hsl(214, 96%, 72%);
+    height: 50px;
+    display:flex;
+    flex-direction: row-reverse;
+    gap:20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    font-size:25px;
+    box-shadow:0 2px 5px hsl(210, 99%, 32%);
+    
+
+    }
+
+

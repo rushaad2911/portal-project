@@ -1,0 +1,44 @@
+.skill-widget {
+  width: 300px;
+  height: 200px;
+  background-color: hsl(214, 96%, 72%);
+  border-radius: 20px;
+  box-shadow: 4px 4px 5px hsl(210, 99%, 32%);
+  margin: 10px;
+  overflow: hidden; /* Hide overflowing AddSkill items */
+}
+
+.skill-widget:hover{
+    transition:0.1s linear;
+    box-shadow:0px 0px 0px hsl(210, 99%, 32%);
+}
+
+
+.skill-title {
+  padding: 10px;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+}
+
+.skill-display {
+  display: flex;
+  flex-wrap: wrap;         /* Enables wrapping to new rows */
+  overflow: auto;          /* Scroll if there's overflow */
+  max-height: 140px;       /* Adjust this to keep inside widget */
+  padding: 0 10px 10px 10px;
+  gap: 8px;                /* Space between items */
+}
+
+.skill-box {
+  background-color: aliceblue;
+  width: 100px;
+  height: 25px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  font-size: 14px;
+  white-space: nowrap;
+  box-shadow: 2px 2px 2px rgb(195, 188, 188);
+  overflow: hidden;
+}

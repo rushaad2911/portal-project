@@ -1,0 +1,36 @@
+/* Ensure the page and root containers take full height */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Flex layout for the analyzer page */
+.analyzerPage {
+  display: flex;
+  height: 100%; /* full viewport height */
+}
+
+/* Each panel takes equal width and full height */
+.jdAnalyzer,
+.resumeAnalyzer {
+  padding-top: 10px;
+  flex: 1;
+  padding: 20px;
+  background-color: azure;
+  height: 100%;
+  
+  overflow-y: auto; /* in case content overflows */
+  box-sizing: border-box;
+  border-radius: 10px;
+    border-color: azure;
+}
+
+/* Styling for textarea */
+.jobDescriptionArea {
+  width: 100%;
+  height: 150px;
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 10px;
+}
