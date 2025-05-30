@@ -1,12 +1,11 @@
 /* Ensure the page and root containers take full height */
-html, body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
+
 
 /* Flex layout for the analyzer page */
 .analyzerPage {
+  height: 100%;
+  margin: 0;
+  padding: 0;
   display: flex;
   height: 100%; /* full viewport height */
 }

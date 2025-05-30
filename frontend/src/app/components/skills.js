@@ -6,7 +6,7 @@ export default function SkillsWidget(params) {
         
         <a href="/user/skill">
         <div className="skill-widget">
-        <p className="skill-title">Skills</p>
+        <p className="skill-title">Skill's and Interest's</p>
 
         <div className="skill-display">
             <AddSkill skillname="Python"/>

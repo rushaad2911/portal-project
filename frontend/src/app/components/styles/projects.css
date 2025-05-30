@@ -1,0 +1,41 @@
+.projectcard{
+
+    background-color: hsl(214, 96%, 72%) ;
+    color:white;
+    width:300px;
+    height:300px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow:4px 4px 5px hsl(210, 99%, 32%);
+    margin:10px;
+    overflow-y:scroll;
+    scrollbar-width: none;
+
+}
+
+
+
+.projectcard:hover{
+    transition:0.1s linear;
+    box-shadow:1px 1px 1px hsl(210, 99%, 32%);
+}
+
+.project-title{
+    font-size: 25px;
+    margin:5px;
+    overflow-x: hidden;
+}
+
+.project-list{
+    color:black;
+    align-content: center;
+    margin-top:10px;
+}
+
+.project-name{
+    background-color: aliceblue;
+    margin:10px;
+    padding:10px;
+    border-radius: 15px;
+
+}
