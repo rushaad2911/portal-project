@@ -1,4 +1,23 @@
-.main-style{
-  color:rgb(70, 88, 115);
+.image-wrapper {
+  position: relative;
+  width: 100%;
+  height: 400px; /* fixed height so image + overlay show */
+  overflow: hidden;
+}
+
+.home-img {
+  object-fit: cover; /* maintain aspect ratio and fill container */
+  filter: blur(3px);
+  opacity:0.8;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 80, 0.6); /* dark blue tint */
+  pointer-events: none;
   
 }
