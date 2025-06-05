@@ -40,6 +40,12 @@ INSTALLED_APPS = [
     
     # apps
     'user.apps.UserConfig',
+    'college.apps.CollegeConfig',
+    'platforms.apps.PlatformsConfig',
+    'resume.apps.ResumeConfig',
+    'skills.apps.SkillsConfig',
+    
+    
 ]
 
 MIDDLEWARE = [
